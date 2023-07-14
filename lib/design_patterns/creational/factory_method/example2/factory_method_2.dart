@@ -19,7 +19,7 @@ class IosButton implements PlatformButton {
   }
 }
 
-class FactoryMethod {
+class FactoryMethodButton {
   static PlatformButton getPlatform({required TargetPlatform platform}) {
     switch (platform) {
       case TargetPlatform.android:
@@ -39,7 +39,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        FactoryMethod.getPlatform(platform: TargetPlatform.iOS)
+        FactoryMethodButton.getPlatform(platform: TargetPlatform.iOS)
             .build(() {}, Text('Click'))
       ],
     );
