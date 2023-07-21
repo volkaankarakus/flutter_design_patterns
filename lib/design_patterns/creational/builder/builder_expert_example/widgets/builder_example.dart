@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/burger.dart';
-import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/burger_builders/cheese_burger_builder.dart';
-import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/burger_builders/hamburger_builder.dart';
 import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/burger_builders/index.dart';
 import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/burger_maker.dart';
 import 'package:flutter_design_patterns/design_patterns/creational/builder/builder_expert_example/widgets/burger_information_column.dart';
@@ -60,7 +58,6 @@ class _BuilderExampleState extends State<BuilderExample> {
     return ScrollConfiguration(
       behavior: const ScrollBehavior(),
       child: SingleChildScrollView(
-     
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
