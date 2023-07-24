@@ -39,6 +39,9 @@ dependencies:
   #Faker
   faker: ^2.1.0
 
+  #XML
+  xml: ^6.3.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
