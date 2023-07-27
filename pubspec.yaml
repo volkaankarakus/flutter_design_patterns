@@ -42,6 +42,16 @@ dependencies:
   #XML
   xml: ^6.3.0
 
+  #Equatable
+  equatable: ^2.0.3
+
+  #Bloc
+  flutter_bloc: ^8.0.1
+  stack: ^0.2.1
+
+
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
