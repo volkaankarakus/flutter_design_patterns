@@ -1,7 +1,7 @@
 import 'package:flutter_design_patterns/design_patterns/structural/decorator/pizza_decorator.dart';
 
-class Mozarella extends PizzaDecorator {
-  Mozarella(super.pizza);
+class Mozzarella extends PizzaDecorator {
+  Mozzarella(super.pizza);
 
   @override
   String getDescription() => '${pizza.getDescription()}\n- Mozzarella';
