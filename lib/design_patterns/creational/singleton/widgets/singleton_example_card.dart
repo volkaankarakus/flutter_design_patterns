@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 class SingletonExampleCard extends StatelessWidget {
   final String text;
 
-  const SingletonExampleCard({
+  const SingletonExampleCard({super.key, 
     required this.text,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Container(
+      child: SizedBox(
         height: 64.0,
         child: Center(
           child: Text(

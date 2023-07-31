@@ -7,7 +7,7 @@ import 'package:flutter_design_patterns/platform/platform_button.dart';
 import 'dialog_selection.dart';
 
 class FactoryMethodExample extends StatefulWidget {
-  const FactoryMethodExample();
+  const FactoryMethodExample({super.key});
 
   @override
   _FactoryMethodExampleState createState() => _FactoryMethodExampleState();
@@ -15,8 +15,8 @@ class FactoryMethodExample extends StatefulWidget {
 
 class _FactoryMethodExampleState extends State<FactoryMethodExample> {
   final List<IDialog> dialogList = [
-    AndroidDialog() as IDialog,
-    IosDialog() as IDialog,
+    const AndroidDialog() as IDialog,
+    const IosDialog() as IDialog,
   ];
 
   var _selectedDialogIndex = 0;

@@ -7,7 +7,7 @@ class FactorySelection extends StatelessWidget {
   final int selectedIndex;
   final ValueSetter<int?> onChanged;
 
-  const FactorySelection({
+  const FactorySelection({super.key, 
     required this.widgetsFactoryList,
     required this.selectedIndex,
     required this.onChanged,

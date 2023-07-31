@@ -7,7 +7,7 @@ base class File extends StatelessWidget implements IFile {
   final int size;
   final IconData icon;
 
-  const File({required this.title, required this.size, required this.icon});
+  const File({super.key, required this.title, required this.size, required this.icon});
 
   @override
   Widget build(BuildContext context) => render(context);

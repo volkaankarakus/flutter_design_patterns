@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 class PlatformBackButton extends StatelessWidget {
-  const PlatformBackButton({
+  const PlatformBackButton({super.key, 
     required this.color,
   });
 

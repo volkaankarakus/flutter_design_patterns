@@ -6,7 +6,7 @@ class DialogSelection extends StatelessWidget {
   final int selectedIndex;
   final ValueSetter<int?> onChanged;
 
-  const DialogSelection({
+  const DialogSelection({super.key, 
     required this.customDialogList,
     required this.selectedIndex,
     required this.onChanged,

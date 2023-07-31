@@ -5,7 +5,7 @@ import 'package:flutter_design_patterns/design_patterns/creational/builder/build
 class BurgerInformationColumn extends StatelessWidget {
   final Burger burger;
 
-  const BurgerInformationColumn({
+  const BurgerInformationColumn({super.key, 
     required this.burger,
   });
 

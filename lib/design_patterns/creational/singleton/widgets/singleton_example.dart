@@ -8,7 +8,7 @@ import 'package:flutter_design_patterns/platform/platform_button.dart';
 import 'singleton_example_card.dart';
 
 class SingletonExample extends StatefulWidget {
-  const SingletonExample();
+  const SingletonExample({super.key});
 
   @override
   _SingletonExampleState createState() => _SingletonExampleState();

@@ -8,7 +8,7 @@ class ShapeColumn extends StatelessWidget {
   final VoidCallback onRandomisePropertiesPressed;
   final VoidCallback onClonePressed;
 
-  const ShapeColumn({
+  const ShapeColumn({super.key, 
     required this.shape,
     required this.shapeClone,
     required this.onRandomisePropertiesPressed,

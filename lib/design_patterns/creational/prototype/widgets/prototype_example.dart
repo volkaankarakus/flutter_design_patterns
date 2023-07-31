@@ -5,7 +5,7 @@ import 'package:flutter_design_patterns/design_patterns/creational/prototype/sha
 import 'package:flutter_design_patterns/design_patterns/creational/prototype/widgets/shape_column.dart';
 
 class PrototypeExample extends StatefulWidget {
-  const PrototypeExample();
+  const PrototypeExample({super.key});
 
   @override
   _PrototypeExampleState createState() => _PrototypeExampleState();

@@ -10,9 +10,9 @@ class AbstractFactoryWidget extends StatelessWidget {
       children: [
         AbstractFactoryImplementation()
             .buildButton(context: context, text: 'hello', onPressed: () {}),
-        SizedBox(height: 100),
+        const SizedBox(height: 100),
         AbstractFactoryImplementation().buildIndicator(context: context),
-        SizedBox(height: 100),
+        const SizedBox(height: 100),
         AbstractFactoryImplementationWithoutAbstract.buildButton(
           context: context,
           text: 'Without abstract',

@@ -7,7 +7,7 @@ import 'package:flutter_design_patterns/design_patterns/creational/builder/build
 import 'burger_menu_item.dart';
 
 class BuilderExample extends StatefulWidget {
-  const BuilderExample();
+  const BuilderExample({super.key});
 
   @override
   _BuilderExampleState createState() => _BuilderExampleState();

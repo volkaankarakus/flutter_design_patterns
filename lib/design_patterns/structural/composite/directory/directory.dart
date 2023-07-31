@@ -5,7 +5,7 @@ import 'package:flutter_design_patterns/design_patterns/structural/composite/ifi
 class Docs extends StatelessWidget implements IFile {
   final String title;
   final bool isInitiallyExpanded;
-  Docs(this.title, {this.isInitiallyExpanded = false});
+  Docs(this.title, {super.key, this.isInitiallyExpanded = false});
 
   final List<IFile> files = [];
 

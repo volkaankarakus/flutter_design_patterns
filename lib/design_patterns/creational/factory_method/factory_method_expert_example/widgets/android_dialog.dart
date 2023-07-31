@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_design_patterns/design_patterns/creational/factory_method/factory_method_expert_example/idialog.dart';
 
 class AndroidDialog extends IDialog {

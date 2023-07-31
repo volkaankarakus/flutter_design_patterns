@@ -10,7 +10,7 @@ class PlatformButton extends StatelessWidget {
   final Color materialTextColor;
   final VoidCallback? onPressed;
 
-  const PlatformButton({
+  const PlatformButton({super.key, 
     required this.text,
     required this.materialColor,
     required this.materialTextColor,

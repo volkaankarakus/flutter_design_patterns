@@ -9,7 +9,7 @@ import 'package:flutter_design_patterns/design_patterns/creational/abstract_fact
 import 'factory_selection.dart';
 
 class AbstractFactoryExample extends StatefulWidget {
-  const AbstractFactoryExample();
+  const AbstractFactoryExample({super.key});
 
   @override
   _AbstractFactoryExampleState createState() => _AbstractFactoryExampleState();

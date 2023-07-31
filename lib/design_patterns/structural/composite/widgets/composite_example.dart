@@ -6,7 +6,7 @@ import 'package:flutter_design_patterns/design_patterns/structural/composite/fil
 import 'package:flutter_design_patterns/design_patterns/structural/composite/files/video_file.dart';
 
 class CompositeExample extends StatelessWidget {
-  const CompositeExample();
+  const CompositeExample({super.key});
 
   Widget _buildMediaDirectory() {
     final musicDirectory = Docs('Music')

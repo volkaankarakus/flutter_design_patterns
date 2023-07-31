@@ -15,7 +15,7 @@ class AndroidButton implements PlatformButton {
 class IosButton implements PlatformButton {
   @override
   Widget build(VoidCallback onPressed, Widget child) {
-    return CupertinoButton(child: child, onPressed: onPressed);
+    return CupertinoButton(onPressed: onPressed, child: child);
   }
 }
 
@@ -40,7 +40,7 @@ class HomeView extends StatelessWidget {
     return Column(
       children: [
         FactoryMethodButton.getPlatform(platform: TargetPlatform.iOS)
-            .build(() {}, Text('Click'))
+            .build(() {}, const Text('Click'))
       ],
     );
   }
