@@ -49,6 +49,9 @@ dependencies:
   flutter_bloc: ^8.0.1
   stack: ^0.2.1
 
+  #Fonts
+  font_awesome_flutter: ^10.5.0
+
 
 
 
