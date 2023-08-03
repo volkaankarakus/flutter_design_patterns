@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_design_patterns/design_patterns/structural/decorator/decorator_interface.dart';
 import 'package:flutter_design_patterns/design_patterns/structural/decorator/pizza_base.dart';
 import 'package:flutter_design_patterns/design_patterns/structural/decorator/pizza_toping_data.dart';
@@ -25,7 +24,7 @@ class PizzaMenu {
 
   // ** Margherita
   Pizza _getMargherita() {
-    Pizza pizza = PizzaBase('Pizza Margharita');
+    Pizza pizza = const PizzaBase('Pizza Margharita');
     pizza = Sauce(pizza);
     pizza = Mozzarella(pizza);
     pizza = Basil(pizza);

@@ -5,7 +5,7 @@ class CustomPizzaSelection extends StatelessWidget {
   final Map<int, PizzaToppingData> pizzaToppingsDataMap;
   final Function(int, bool?) onSelected;
 
-  const CustomPizzaSelection({
+  const CustomPizzaSelection({super.key, 
     required this.pizzaToppingsDataMap,
     required this.onSelected,
   });

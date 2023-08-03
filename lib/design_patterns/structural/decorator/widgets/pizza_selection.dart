@@ -6,7 +6,7 @@ class PizzaSelection extends StatelessWidget {
   final int selectedIndex;
   final ValueSetter<int?> onChanged;
 
-  const PizzaSelection({
+  const PizzaSelection({super.key, 
     required this.selectedIndex,
     required this.onChanged,
   });

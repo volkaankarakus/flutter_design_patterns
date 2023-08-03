@@ -4,7 +4,7 @@ import 'package:flutter_design_patterns/design_patterns/structural/decorator/dec
 class PizzaInformation extends StatelessWidget {
   final Pizza pizza;
 
-  const PizzaInformation({
+  const PizzaInformation({super.key, 
     required this.pizza,
   });
 

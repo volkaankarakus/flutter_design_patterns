@@ -7,7 +7,7 @@ import 'device_icon.dart';
 import 'mode_switcher.dart';
 
 class FacadeExample extends StatefulWidget {
-  const FacadeExample();
+  const FacadeExample({super.key});
 
   @override
   _FacadeExampleState createState() => _FacadeExampleState();

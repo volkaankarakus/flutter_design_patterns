@@ -7,7 +7,7 @@ import 'pizza_information.dart';
 import 'pizza_selection.dart';
 
 class DecoratorExample extends StatefulWidget {
-  const DecoratorExample();
+  const DecoratorExample({super.key});
 
   @override
   _DecoratorExampleState createState() => _DecoratorExampleState();

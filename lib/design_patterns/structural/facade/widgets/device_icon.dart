@@ -4,7 +4,7 @@ class DeviceIcon extends StatelessWidget {
   final IconData iconData;
   final bool activated;
 
-  const DeviceIcon({
+  const DeviceIcon({super.key, 
     required this.iconData,
     required this.activated,
   });
