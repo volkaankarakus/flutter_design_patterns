@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design_patterns/design_patterns/structural/flyweight/ipositioned_shape.dart';
 
-class Circle implements IPositinedShape {
+class CircleShape implements IPositinedShape {
   final Color color;
   final double diameter;
-  const Circle({
+  const CircleShape({
     required this.color,
     required this.diameter,
   });
