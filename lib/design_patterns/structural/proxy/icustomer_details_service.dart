@@ -3,3 +3,4 @@ import 'package:flutter_design_patterns/design_patterns/structural/proxy/custome
 abstract interface class ICustomerDetailsService {
   Future<CustomerDetailsProxy> getCustomerDetails(String id);
 }
+
