@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_design_patterns/design_patterns/structural/flyweight/ipositioned_shape.dart';
 
 class SquareShape implements IPositinedShape {

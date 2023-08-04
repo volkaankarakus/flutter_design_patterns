@@ -9,7 +9,7 @@ import 'package:flutter_design_patterns/design_patterns/structural/flyweight/sha
 import 'positioned_shape_wrapper.dart';
 
 class FlyweightExample extends StatefulWidget {
-  const FlyweightExample();
+  const FlyweightExample({super.key});
 
   @override
   _FlyweightExampleState createState() => _FlyweightExampleState();

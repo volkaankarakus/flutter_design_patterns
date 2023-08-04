@@ -4,7 +4,7 @@ import 'package:flutter_design_patterns/design_patterns/structural/flyweight/ipo
 
 class PositionedShapeWrapper extends StatelessWidget {
   final IPositinedShape shape;
-  const PositionedShapeWrapper({required this.shape});
+  const PositionedShapeWrapper({super.key, required this.shape});
 
   double _getPosition(double max, double min) {
     final randomPosition = Random().nextDouble() * max;
