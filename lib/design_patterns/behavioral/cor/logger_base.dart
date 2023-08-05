@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'log_level_enum.dart';
 
 abstract class LoggerBase {
-  @protected
-  final LogLevel logLevel;
   final LoggerBase? _nextLogger;
+
+  @protected // a class must be accessible by its subclasses, but not by other classes.
+  final LogLevel logLevel;
 
   const LoggerBase({
     required this.logLevel,
@@ -12,7 +13,6 @@ abstract class LoggerBase {
   }) : _nextLogger = nextLogger;
 
   // ** Log
-  void log(String message);
 
   // ** Log Message
   void logMessage(LogLevel level, String message) {
@@ -25,4 +25,6 @@ abstract class LoggerBase {
   void logDebug(String message) => logMessage(LogLevel.debug, message);
   void logInfo(String message) => logMessage(LogLevel.info, message);
   void logError(String message) => logMessage(LogLevel.error, message);
+
+  void log(String message);
 }

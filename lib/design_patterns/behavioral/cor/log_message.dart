@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/design_patterns/behavioral/cor/log_level_enum.dart';
+import 'package:flutter_design_patterns/design_patterns/behavioral/CoR/log_level_enum.dart';
 
 class LogMessage {
   final LogLevel logLevel;
