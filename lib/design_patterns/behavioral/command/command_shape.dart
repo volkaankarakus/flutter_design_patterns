@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/design_patterns/creational/prototype/shape.dart';
 
 class CommandShape {
   CommandShape.initial()
