@@ -4,7 +4,7 @@ base class TeamMember {
   final String name;
   TeamMember({required this.name});
 
-  NotificationHub? notificatioHub;
+  NotificationHub? notificationHub;
   String? lastNotification;
 
   void receive(String from, String message) {
@@ -12,10 +12,10 @@ base class TeamMember {
   }
 
   void send(String message) {
-    notificatioHub?.send(this, message);
+    notificationHub?.send(this, message);
   }
 
   void sendTo<T extends TeamMember>(String message) {
-    notificatioHub?.sendTo<T>(this, message);
+    notificationHub?.sendTo<T>(this, message);
   }
 }
